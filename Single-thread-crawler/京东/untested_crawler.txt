@@ -1,0 +1,50 @@
+﻿#coding=utf-8
+
+import sys,urllib2,re
+
+#----------------------------------------------------------------------------
+def main():
+	url = "http://club.jd.com/review/1166360455-3-1-0.html"
+	resp = urllib2.urlopen(url) #打开连接
+	respHtml = resp.read() #获取页面内容
+	foundComments = re.findall(r'得：</dt>(?P<%s+?>.+?)</dd>',respHtml);
+	
+	
+	
+	fp = open("d:\\python2.7.8\\data\\comments.txt","w")   # 打开文本
+	fp.write('\n'.join(foundComments))    # 写入数据
+	fp.close()   # 关闭文件
+
+#----------------------------------------------------------------------------
+if __name__=="__main__":
+	main();
+
+
+
+
+
+
+################################含评论页循环匹配##############################
+
+#coding=utf-8
+
+import sys,urllib2
+
+#----------------------------------------------------------------------------
+def main():
+	url = "http://club.jd.com/review/1166360455-3-1-0.html"
+	resp = urllib2.urlopen(url) #打开连接
+	respHtml = resp.read() #获取页面内容
+
+	# '.html>endpage</a><a class>'    匹配 找最大页
+	endpage = re.findall(r'.html>(?P<%d+?>.+?)</a><a class',respHtml)  
+	
+	
+	
+	fp = open("d:\\python2.7.8\\data\\comments.txt","w")   # 打开文本
+	fp.write('\n'.join(endpage))    # 写入数据
+	fp.close()   # 关闭文件
+
+#----------------------------------------------------------------------------
+if __name__=="__main__":
+	main();

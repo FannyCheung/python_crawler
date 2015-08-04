@@ -1,0 +1,2348 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>众筹网-科技众筹列表_高新科技项目众筹_智能产品创业融资</title>
+<meta name="keywords" content="高新科技项目众筹,智能产品创业融资"/>
+<meta name="description" content="众筹科技频道是专业介绍智能家居、智能穿戴设备、极客产品、儿童高科技教育产品、车联网、移动应用等产品的项目众筹平台，为投资人提供优质融资项目，选择您支持喜欢的科技众筹项目，让投资的您和创业者实现共赢！"/>
+<meta name="renderer" content="webkit"/>
+<link rel="shortcut icon"  type="image/png" href="http://zcs3.ncfstatic.com/v3/static/images/icon/title.png?v="/>
+
+<link rel="stylesheet" type="text/css" href="http://zcs3.ncfstatic.com/zhongchou/pub/v3/14c4c0d24fba6ed25d8b6758064ef7b8.css?V=1433243517" >
+<link rel="stylesheet" type="text/css" href="http://zcs3.ncfstatic.com/zhongchou/pub/v3/c0e454d8a299072d08e6906eb674097f.css?V=1433243517" >
+<script type="text/javascript" src="http://zcs3.ncfstatic.com/zhongchou/pub/v3/ab6a4ddd11cd65e3f6fff50bc59346ad.js?V=1433243517" ></script>
+                                  
+</head>
+<body>
+<!-- header begin -->
+<div class="siteHeader">
+  <div class="siteHTopBox">
+        <div class="mainBox">
+            <div class="siteLogoBox clearfix">
+                <a href="http://www.zhongchou.com/" class="siteLogo_A"><img src="/attachment/201505/21/16/1432196212.png"/></a>
+                <!-- 搜索框 begin -->
+                <div class="siteSearch">
+                <div class='form' id='searchForm' onsubmit='return false;'>
+                  <div class="searchTopBox clearfix" id='search-box'>
+                      <input autocomplete='off' placeHolder='六一儿童节' value='' name="k" type="text" class="searchInput" id="searchInput"/>
+                      <a href="javascript:;" type="submit" class="searchBtn" id="searchBtn">搜索</a>
+                      <!-- <span class="searchTopTip" id="searchTopTip" style="display: block;"></span> -->
+                      <div class='input-hinter'></div>
+                  </div>
+                  <script type="text/javascript">
+                  $(document).ready(function(){
+	                	var hinter = new InputHinter({
+	                		container : 'search-box',
+	                		id : "searchInput",
+	                		form : 'searchForm'
+	                	});
+					  	$('#searchBtn').click(function(){
+							var searchInput=$('#searchInput');
+							var val = searchInput.val();
+							if(val)
+								window.location.href = "/deals/k-" + val;
+							
+						});
+					
+						$("#searchInput").focus();
+					});
+					
+                  </script>
+                </div>
+
+                <div class="searchLabel clearfix">
+                  <a href="http://www.zhongchou.com/gongyi" class="searchLabel_A"><i></i>公益</a><a href="http://www.zhongchou.com/keji" class="searchLabel_A"><i></i>科技</a><a href="http://www.zhongchou.com/yishu" class="searchLabel_A"><i></i>艺术</a><a href="http://www.zhongchou.com/yule" class="searchLabel_A"><i></i>娱乐</a><a href="http://www.zhongchou.com/chuban" class="searchLabel_A"><i></i>出版</a><a href="http://www.zhongchou.com/nongye" class="searchLabel_A"><i></i>农业</a><a href="http://www.zhongchou.com/browse/id-10003" class="searchLabel_A"><i></i>商铺</a><a href="http://www.zhongchou.com/difangzhan" class="searchLabel_A"><i></i>地方站</a>                </div>
+                </div>
+                <!-- 搜索框 end -->
+
+                <!-- 登录&&注册 begin -->
+                 
+                <div class="siteLRBox clearfix" id="siteLRBox">
+                    <a href="javascript:;" id="headerRegister" class="headerLogin btnLink Js-showRegister">快速注册</a>
+                    <a href="javascript:;" id="headerLogin" class="headerLogin btnLink Js-showLogin">登录</a>
+                </div>
+                
+                <div class="siteLogined" style="display:none;" id="siteLogined">
+                	<div class="siteLgInner">
+                    	<i></i>
+                    </div>
+                    <div class="siteLgFloat">
+                    	<div class="siteLgFloatInner">
+                            <a href="http://www.zhongchou.com/home" class="siteLg_A btnLink gr">个人中心</a>
+                            <a href="http://www.zhongchou.com/settings" class="siteLg_A btnLink sz">个人设置</a>
+                            <a href="http://www.zhongchou.com/usernew-loginout" class="siteLg_A btnLink tuichu">退出</a>
+                        </div>
+                    </div>
+                </div>
+                                <!-- 登录&&注册 end -->
+            </div>
+        </div>
+    </div>
+    <div class="siteHBottomBox" id="siteHBottomBox">
+      <div class="mainBox clearfix">
+            <div class="siteSLabelBox">
+              <a href="http://www.zhongchou.com" class="siteSLabel btnLink">首页</a><a href="http://guquan.zhongchou.com" class="siteSLabel btnLink">股权众筹</a><a href="http://www.zhongchou.com/browse" class="siteSLabel btnLink cur">奖励众筹</a><a href="http://www.zhongchou.com/browse/id-23" class="siteSLabel btnLink">公益众筹</a><a href="http://www.zhongchou.com/fangchan" class="siteSLabel btnLink">房产众筹</a>            </div>
+            <a href="http://www.zhongchou.com/project" class="site_createP btnLink">
+                <i></i>发起项目
+            </a>
+            <div class="headerTel">
+                <i class="headerTel_i"></i>
+                <span class="FtSpan">官方咨询电话</span>
+                <span class="SeSpan">400-010-6810</span>
+            </div>
+        </div>
+    </div>
+    <input type='hidden' id='csrf_token' value='96410781' />  
+</div>
+<!-- 网站header begin -->
+
+
+<!-- 右侧状态栏 begin -->
+<div class="siteRStatus">
+  <div class="RSWrapTop">
+        <div class="RSWrapBox" id="RSUserWrap">
+            <i class="RSBgIcon RSBg_user"></i>
+            <div class="RSFloatOBox" style="top:-2px;">
+                <div class="RSFloatBox">
+                    <i class="Point_i01"></i>
+                    <i class="Point_i02"></i>
+                                        <div class="RSUserFloat" id="RSLg_w_Box">
+                        <img src="http://zcs3.ncfstatic.com/v3/static/images/icon/defaultUserIcon.png?v="/>
+                        <div class="RSUser_FText">您好！请
+                            <span class="RSUser_textSpan">
+                                <a href="javascript:;" class="FUserLinkA Js-showLogin">登录</a>
+                                <b>|</b>
+                                <a href="javascript:;" class="FUserLinkA Js-showRegister">注册</a>
+                            </span>
+                        </div>
+                    </div>
+                    
+                    <div class="RSUserFloat" id="RSLg_y_Box" style="display:none;">
+                        <img width="60px" src=""/>
+                        <div class="RSUser_FText">
+                            <span class="RSUser_textSpan">
+                                <a href="http://www.zhongchou.com/home" class="FUserLinkA">个人中心</a>
+                                <b>|</b>
+                                <a href="http://www.zhongchou.com/usernew-loginout" class="FUserLinkA">退出</a>
+                            </span>
+                        </div>
+                    </div>
+                    
+                                    </div>
+            </div>
+        </div>
+        <div class="RSWrapBox">
+			<a href="javascript:;" class="Js-showLogin">            <i class="RSBgIcon RSBg_zhichi"></i>
+            <div class="RS_text">支持</div>
+            </a>          
+        </div>
+        <div class="RSWrapBox">
+         	<a href="javascript:;" class="Js-showLogin">            <i class="RSBgIcon RSBg_xihuan"></i>
+            <div class="RS_text">喜欢</div>
+            </a>
+        </div>
+        <div class="RSWrapBox">
+        	<a href="javascript:;" class="Js-showLogin">            <i class="RSBgIcon RSBg_faqi"></i>
+            <div class="RS_text">发起</div>
+            </a>
+        </div>
+        <div class="RSWrapBox">
+        	<a href="javascript:;" class="Js-showLogin">            <i class="RSBgIcon RSBg_xiaoxi"></i>
+            <div class="RS_text">消息</div>
+                        
+            </a>
+        </div> 
+    </div>
+    <div class="RSWrapBottom">
+        <div class="RSWrapBox padding15" id="RS_scrollTop" style="display:none;">
+            <i class="RSBgIcon RSBg_scrollTop"></i>
+        </div>
+        <div class="RSWrapBox padding15">
+            <i class="RSBgIcon RSBg_fenxiang"></i>
+            <div class="RSFloatOBox" style="top:5px;">
+                <div class="RSFloatBox">
+                    <i class="Point_i01" style="top:12px;"></i>
+                    <i class="Point_i02" style="top:13px;"></i>
+                    <!-- JiaThis Button BEGIN -->
+                    <div class="jiathis_style indexRFx">
+                    	<span>分享到：</span>
+                        <a class="jiathis_button_weixin"></a>
+                        <a class="jiathis_button_tsina"></a>
+                        <a class="jiathis_button_qzone"></a>                   
+                    </div>
+                    <script type="text/javascript" src="http://v3.jiathis.com/code_mini/jia.js" charset="utf-8"></script>
+                    <!-- JiaThis Button END -->
+                </div>
+            </div>
+        </div>
+        <div class="RSWrapBox padding15" id="RSAppCodeWrap">
+            <i class="RSBgIcon RSBg_shouji"></i>
+            <div class="RSFloatOBox" style="bottom:5px;">
+                <div class="RSFloatBox">
+                    <i class="Point_i01" style="top:150px;"></i>
+                    <i class="Point_i02" style="top:151px;"></i>
+                    <div class="RSAppFloat">
+                        <img src="http://zcs3.ncfstatic.com/v3/static/images/icon/RNavWxImg.jpg?v="/>
+                        <div class="RSapp_FText">下载众筹网手机app</div>
+                    </div>
+                </div>
+        	</div>
+        </div>
+    </div>
+</div>
+<!-- 右侧状态栏 end -->
+
+<!-- 项目列表 begin -->
+<div class="projectListWrap listWrap">
+	<div class="mainBox clearfix">
+    	<div class="PListLeft">
+        	<!-- 筛选条件 begin -->
+            <div class="filterBox">
+            	<div class="filterItem">
+                	<h3 class="filter_h3">行业筛选：</h3>
+                    <ul class="filter_Ul">
+                    								<li class="filter_li ">
+								<a href="http://www.zhongchou.com/browse" class="filter_A btnLink">全部</a>
+							</li>
+													<li class="filter_li cur">
+								<a href="http://www.zhongchou.com/browse/id-10000" class="filter_A btnLink">科技</a>
+							</li>
+													<li class="filter_li ">
+								<a href="http://www.zhongchou.com/browse/id-23" class="filter_A btnLink">公益</a>
+							</li>
+													<li class="filter_li ">
+								<a href="http://www.zhongchou.com/browse/id-16" class="filter_A btnLink">出版</a>
+							</li>
+													<li class="filter_li ">
+								<a href="http://www.zhongchou.com/browse/id-10001" class="filter_A btnLink">娱乐</a>
+							</li>
+													<li class="filter_li ">
+								<a href="http://www.zhongchou.com/browse/id-22" class="filter_A btnLink">艺术</a>
+							</li>
+													<li class="filter_li ">
+								<a href="http://www.zhongchou.com/browse/id-28" class="filter_A btnLink">农业</a>
+							</li>
+													<li class="filter_li ">
+								<a href="http://www.zhongchou.com/browse/id-10003" class="filter_A btnLink">商铺</a>
+							</li>
+													<li class="filter_li ">
+								<a href="http://www.zhongchou.com/browse/id-10006" class="filter_A btnLink">众筹筑屋</a>
+							</li>
+													<li class="filter_li ">
+								<a href="http://www.zhongchou.com/deals-difangzhan" class="filter_A btnLink">地方站</a>
+							</li>
+													<li class="filter_li ">
+								<a href="http://www.zhongchou.com/browse/id-18" class="filter_A btnLink">其他</a>
+							</li>
+						                    </ul>
+                </div>
+                <div class="filterItem">
+                	<h3 class="filter_h3">项目进程：</h3>
+                    <ul class="filter_Ul">
+                    								<li class="filter_li cur">
+								<a href="/browse/id-10000-all" class="filter_A btnLink">所有项目</a>
+							</li>
+													<li class="filter_li ">
+								<a href="/browse/id-10000-di" class="filter_A btnLink">众筹中</a>
+							</li>
+													<li class="filter_li ">
+								<a href="/browse/id-10000-ds" class="filter_A btnLink">已成功</a>
+							</li>
+													<li class="filter_li ">
+								<a href="/browse/id-10000-rs" class="filter_A btnLink">即将开始</a>
+							</li>
+													<li class="filter_li ">
+								<a href="/browse/id-10000-rd" class="filter_A btnLink">将要结束</a>
+							</li>
+						                    </ul>
+                </div>
+                <!-- <a href="javascript:;" class="filter_moreA siteLink closed" id="filter_moreA">更多</a> -->
+            </div>
+            <div class="filterBox" style="margin-top: 5px;">
+            	<div class="filterItem" style="padding-left: 0px;">
+                	<!--<h3 class="filter_h3">其他类别：</h3>-->
+                    <ul class="filter_Ul clearfix">
+                    								<li class="QTfilter_li" >
+								<a href="/browse/id-10000-all" class="noBg QTfilter_A btnLink cur">默认排序</a>
+							</li>
+													<li class="QTfilter_li" >
+								<a href="/browse/id-10000-all-sb" class=" QTfilter_A btnLink ">最新上线</a>
+							</li>
+													<li class="QTfilter_li" >
+								<a href="/browse/id-10000-all-sm" class=" QTfilter_A btnLink ">目标金额</a>
+							</li>
+													<li class="QTfilter_li" >
+								<a href="/browse/id-10000-all-si_c" class=" QTfilter_A btnLink ">支持人数</a>
+							</li>
+													<li class="QTfilter_li" >
+								<a href="/browse/id-10000-all-si_m" class=" QTfilter_A btnLink ">筹资额</a>
+							</li>
+						                    </ul>
+           		</div>
+          	</div>
+            <!-- 筛选条件 end -->
+
+            <div class="PListTabCBox clearfix">
+            	
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-122800" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201504/17/17/ecbd3e5cd8bcaa48c73353aca42b752591_286x216.jpg" alt="简介:降魔杵手表设计理念源于丰富的吉祥文化，设计元素为吉祥·降魔杵、金刚橛、金轮，寓意深刻，契合大众需求。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-122800" class="btnLink ItemTextLink">芬陀华品牌降魔杵手表</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥399</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>89%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-133834" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/13/15/0a512c396e06b271ec346d0598984ff135_286x216.jpg" alt="简介:我们是一群热爱运动，热爱音乐，热爱科技的小伙伴，我们希望用这三者让你我的生活更加美好和有趣。给大家带来这款无线运动激励耳机，美国队长经典复刻版。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-133834" class="btnLink ItemTextLink">GEEKERY无线运动激励耳机——美国队长经典复刻版</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥299</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>1471%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-134599" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/13/10/24e436bd6f618d13b2d56189c7855abe82_286x216.jpg" alt="简介:全球首款支持TF卡扩容的金属边框，专为5/5S用户量身打造，在享受大容量的同时对手机全天候防护，而且在边框上还附带很多实用的小功能会让你意外惊喜！"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-134599" class="btnLink ItemTextLink">iPhone 5/5S 神奇边框</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥99</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>94%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-130726" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/16/20/13f4862ee25c263232b6b28ea7a9c96e49_286x216.jpg" alt="简介:全球超薄名片充电宝：口袋、钱包、随意可放！充电线与机身融为一体应急充电如此简单、方便！不管是苹果手机还是安卓手机，都可轻松搞定！"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-130726" class="btnLink ItemTextLink">全球超薄名片充电宝</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥29</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>92%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-94837" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/20/11/6e7fc0e9c012de476ad0fd96a45898b724_286x216.jpg" alt="简介:iLook(爱路客)是“Lighthouse创客精英会”专为自驾旅行者设计的GPS智能硬件。数字指南针，气压，温度，精确时钟，OLED，GPS轨迹记录"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-94837" class="btnLink ItemTextLink">世界那么大iLook陪你走</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥268</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>38%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-130015" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/02/22/a812a75ce821f506879f471772d6693941_286x216.jpg" alt="简介:知晨移动电源配备优良手感集成设计，化繁为简的风格，配备左右双线真正的无数据线，同时具有高转换率高质量和无线充电版本。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-130015" class="btnLink ItemTextLink">Supower移动电源[免费换新]万能集成+无线充电+无需带…</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥78</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>39%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-134554" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/12/23/ee4349887966061853e2f51735507f1f31_286x216.jpg" alt="简介:我们是以高校为建设对象，搭建高校生活服务信息平台。一对一为高校定制最接地气的生活服务类APP。我们有一个梦想，让我们的服务，在所有高校开花、怒放！"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-134554" class="btnLink ItemTextLink">柠檬时代高校APP——为各高校量身制定掌上服务平台</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥10</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>75%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-143620" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/27/08/548e80a8c50c117a10a064dd105a624283_286x216.jpg" alt="简介:时隔一年再次发起电源众筹，为老朋友提供新的造型，为新朋友推介我们的电源；在众筹网向大家介绍移动电源的基本常识。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-143620" class="btnLink ItemTextLink">萌宠家族移动电源——有态度的移动电源</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥52</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>6%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-131539" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/19/12/baf460714a672a1919a84220743afa5414_286x216.jpg" alt="简介:颠覆传统摄像头功能
+可做主机外接安防设备
+百万高清无线网络摄像头
+手机远程监控器/家用安防录像机 
+远程监控无死角 流畅性好 高清夜视 安装方便"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-131539" class="btnLink ItemTextLink">智能高清网络摄像机——随身看，如亲见</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥269</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>32%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-109396" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201503/23/19/136f3bd09f5768c4a04b8fcdee9606e843_286x216.jpg" alt="简介:数字营销领域高端社群STC（微信号：Social Talent）联合秀米打造全球限量微信编辑器。个性化模板将为每个微信公众号带来不一样的全新感官体验。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-109396" class="btnLink ItemTextLink">全球限量——个性化微信图文编辑器</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥1</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>107%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-140776" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/29/14/55680a003a6e5_286x216.jpg" alt="简介:速度与激情，酷炫无限，高品质高性能两轮思维车已经可以批量生产回馈支持者，成本价回馈。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-140776" class="btnLink ItemTextLink">速度与激情，酷炫无限，两轮思维车</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥3</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>34%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-131989" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/14/10/55540b869da2a_286x216.jpg" alt="简介:再贵的礼物也没父母的健康重要！博唐平，给家人最好的健康礼物，从此我们再也不用担心父母受糖尿病的威胁了，家人的健康是对我们最大的回馈。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-131989" class="btnLink ItemTextLink">全球唯一的掌上糖化血红蛋白检测仪——为家人的健康买单！</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥799</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>104%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-125464" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201504/25/23/cfd8c39fd5619a3ead513b2b99cca8a465_286x216.jpg" alt="简介:一款真正能防水的盒子，带自行车支架，可单独绑在胳膊上，系在腰间，跑步、游泳、骑行、健身、户外旅行等。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-125464" class="btnLink ItemTextLink">苹果手机多功能防水盒子，健身、游泳、骑行必备神器！</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥66</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>56%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-135328" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/14/13/d2d047c4fef2fcf0c9e1d4023cb325e426_286x216.jpg" alt="简介:Yomotion 遥控拍照的智能手环，有着军用级的防水及传感器。洋气而不是彪悍，年轻人人手一台的臻品。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-135328" class="btnLink ItemTextLink">Yomotion 遥控拍照的智能手环</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥109</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>575%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-131500" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/25/17/5562ecc1d3bd3_286x216.jpg" alt="简介:一套积木与电子模块，可以拼出飞机、汽车、毛毛虫、机器人、蝎子五种模型，并且运用独有的模块功能让各种造型运动起来，一次性满足孩子多个愿望！"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-131500" class="btnLink ItemTextLink">METAS组合机器人五合一套装——开发智力寓教于乐</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥119</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>204%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-122998" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201504/17/21/15259afef6a175952efab9e86863782d93_286x216.jpg" alt="简介:ALICE-3858，世界上首款电全自动睛雨伞。新发明专利伞，一支做工、材质、顶级防晒的自动开收伞，世界上最方便最好用的伞，我们期待您和我们一起见证！"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-122998" class="btnLink ItemTextLink">世界上首支电动自开收伞，一次众筹终身免费换新， 最好用的伞</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥528</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>12%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-119008" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201504/29/17/32aa31769a8f6e224fac19ceb3721ce482_286x216.jpg" alt="简介:Robot Mop Swee是一款全自动智能识别拖扫吸一体机器人，除了拥有强大清洁功能，还能当宝宝最宠玩具。创造出美丽生活，给家人更多健康与快乐。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-119008" class="btnLink ItemTextLink">Robot Mop Sweeper--全自动智能超薄静音扫拖…</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥289</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>238%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-126784" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201504/25/19/6f69a6d1eb118d8a419aa265e335b8bd19_286x216.jpg" alt="简介:高清智能摄像机，有网络监控功能，我们把智能家居主机融入到网络摄像头里，让它既是监控又是智能家居系统主机！"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-126784" class="btnLink ItemTextLink">高清智能摄像机  领导智能生活新时代</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥169</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>108%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-132796" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/09/22/9243857361a0445100b246e4d3ee578955_286x216.jpg" alt="简介:位于法国的TWIZZ MUG设计者开始酝酿一个想法：有没有办法不用盖子也能密封盒子呢？终于确定了产品概念，一个随身的杯子，而且是不用盖子也能密封、保温"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-132796" class="btnLink ItemTextLink">一个神奇的保温杯：独特开合方式 无盖密封</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥29</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>122%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-117745" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201504/22/10/55370905a71a6_286x216.jpg" alt="简介:一键接入微官网、微会员、微商城、微餐饮、微酒店、微wifi、微请柬、微预约等，丰富的营销功能，方便为企业提供一站式管理平台，呈现全新的互动创新模式"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-117745" class="btnLink ItemTextLink">微信公众智能营销服务平台系统聚合，助力微时代运营</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥98</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>260%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-145387" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/30/15/6b8a9c9f8d384c1c48fb11b06b54f11480_286x216.jpg" alt="简介:领宝科技LingBox纯木质蓝牙音箱追求的是音质的极致！这与“领宝科技——让生活更美好！”的公司理念是一致的！因此我们不断探索最好的发声方式力求完美！"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-145387" class="btnLink ItemTextLink">领宝科技LingBox纯木质蓝牙音箱，采用落叶松实木将音质做…</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥88</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>10%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-116281" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201504/07/21/a799beb43f9a5d66295d996e99f5deb810_286x216.jpg" alt="简介:市场上灭蚊产品众多，JSTOO为您带来安全，低耗，环保，灭蚊效果非常良好的光触灭蚊器值得您拥有。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-116281" class="btnLink ItemTextLink">JSToo光触媒灭蚊器——吸入式安全低耗环保</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥99</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>45%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-129673" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/06/13/5567a79fd0221f12439eeefc13e125e038_286x216.jpg" alt="简介:水龙头安全套——家用净水神器，5秒搞定安装。一款专为家庭能快速安装的净水器。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-129673" class="btnLink ItemTextLink">水龙头安全套——家用净水神器，5秒就能搞定安装的净水器</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥99</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>110%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-143728" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/29/14/02f24d95db97e7e4263c18f5c419d7cf43_286x216.jpg" alt="简介:我们一直研究开发手机周边智能配件，现我们研发出一款手机智能皮套，这款皮套的功能可以很轻松了解天气预报，空气质量，快捷拍照，一键手电筒以及来电接听。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-143728" class="btnLink ItemTextLink">健康智能手机保护套  空气质量监测+天气预报</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥39</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>1%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-139057" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201506/02/09/556d0566e576b_286x216.jpg" alt="简介:10W 大功率充电强光防暴手电，带安全锤，关键时刻可砸破车窗玻璃，可以红光闪烁并发出报警声，是车载防身，也是露营,搜索,打猎,夜钓,巡逻的得力好帮手"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-139057" class="btnLink ItemTextLink">多功能防身报警强光远射手电</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥79</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>3%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-131614" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/29/17/55683494d9ca2_286x216.jpg" alt="简介:我们是专注于研发头戴式智能装备的科技团队，我们一直秉着以人为本的概念，致力打造最为适合广泛人群的沉浸式虚拟眼镜。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-131614" class="btnLink ItemTextLink">VR BOX—3D虚拟现实头盔，立体视觉魔镜</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥108</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>3%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-127954" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201504/28/11/a156fe8103d57d5b000df84f87867a4313_286x216.jpg" alt="简介:安全侠可通话的儿童手表，微信语音，家庭群聊，GPS定位，记录孩子行走轨迹，防护儿童安全！"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-127954" class="btnLink ItemTextLink">安全侠儿童智能手表-守护儿童安全</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥19</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>14%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-131851" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/18/15/7e1c0946b59eabe088acb77480c81f8625_286x216.jpg" alt="简介:我们正在努力创业，为了梦想我们一直在努力创新。此款产品缓解颈部疲劳，腰部疲劳。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-131851" class="btnLink ItemTextLink">颈部腰部按摩，消除疲劳</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥138</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>29%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-133531" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/11/09/88f9d7af863fe88313fc2803986e550a24_286x216.jpg" alt="简介:自平衡双轮平衡车--精巧的设计，真正满足您短途代步工具的需求。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-133531" class="btnLink ItemTextLink">自平衡两轮电动平衡车</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥2,499</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>1%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-136081" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/15/13/67c0fb6993e5a409701b826e74d95fea16_286x216.jpg" alt="简介:后花园智能盆栽，极简设计，全智能打理桌面上的绿色空间。送给最亲密人的智能礼物，用心呵护的秘密花园。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-136081" class="btnLink ItemTextLink">后花园智能盆栽—跟最爱的ta一起打理浪漫花园</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥159</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>30%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-129889" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/06/11/55498d3840b52_286x216.jpg" alt="简介:不仅仅是手机智能设备，更是一个身份的确认、一个移动的挣钱工具、内涵超乎你想象"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-129889" class="btnLink ItemTextLink">能挣钱的手机in键</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥33</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>5%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-139150" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/21/10/60fb21bfb1e710af960f547bb73028a238_286x216.jpg" alt="简介:前后双录，倒车影像，超低价格。4.3寸超大触控屏，1080P高清，循环录像。搭配上雷达宝后，更可以流动固定测速，微信绑定，GPS轨迹，自动升级。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-139150" class="btnLink ItemTextLink">菲星行车记录仪+预警机</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥399</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>35%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-123187" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201504/18/15/2f1a0866b7c1e40d29546f59c685e2cf80_286x216.jpg" alt="简介:一个改善你生活质量的智能水杯,通过APP科学制定饮水标准，智能化管理你的饮水，帮你养成科学喝水的好习惯。带给你健康的同时让你感受到喝水的快乐。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-123187" class="btnLink ItemTextLink">云杯——一个改善你生活质量的智能水杯</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥109</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>34%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-130288" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/03/20/f6617c838bf9694c083bc01b67c54d3710_286x216.jpg" alt="简介:这是一款智能的可以吹和拍的魔法灯，是你居家使用、户外旅行、夜间行动、露营探险必备佳品，送女友、送朋友、送客户、送家人！"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-130288" class="btnLink ItemTextLink">智能魔法神灯，可以吹的神灯</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥59</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>147%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-128266" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201504/28/23/d1c71c5516e67dbb4a2cb0aa79f149b628_286x216.jpg" alt="简介:LIGHTNING Pulse是一款时尚前沿的音响产品，我们一直追求青年良品，时尚的炫彩元素，追求最完美的音质，带给用户最好的视觉享受。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-128266" class="btnLink ItemTextLink">LIGHTNING Pulse  音频便携蓝牙音箱 炫彩36…</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥199</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>11%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-131773" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/07/11/b95e938546054a676d5d525df4a9c93e19_286x216.jpg" alt="简介:没有人知道，梦能走多远。
+我们只知道，从脚下开始。
+我们相信这是个可以引领人们走向健康新生活的项目，
+一款可以调节饮食的电子秤在我们的努力下即将面世"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-131773" class="btnLink ItemTextLink">永衡蓝牙营养秤 烹饪神器 健康助手</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥99</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>29%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-131293" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/06/10/23eeb7ed24dc448b86a3338fbe66275b19_286x216.jpg" alt="简介:米橙，专注功能与实用，采用革新的2X2净化过滤技术和改良的风道设计，研发成功的可谓最纯粹的空气净化器。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-131293" class="btnLink ItemTextLink">米橙，最纯粹的空气净化器</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥1,799</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>109%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-139207" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/28/18/a6a08381916583a63f18eaf856c846c310_286x216.jpg" alt="简介:车之间也需要沟通和交互，而不只是冰冷的钢铁间喇叭与灯语之间单调的提示，pushinter让其实现！"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-139207" class="btnLink ItemTextLink">Pushinter 车载交互与显示系统</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥799</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>19%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-144619" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201506/01/15/39465538d97ffe8632560823406116b751_286x216.jpg" alt="简介:还在为半夜上厕所找拖鞋发愁吗？还在为夜里找充电器找电源发愁吗？还在为只能提供光源而浪费了电源孔发愁吗？这款智能光控感应灯就能帮您解决一起，一孔两冲。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-144619" class="btnLink ItemTextLink">智能光控感应夜灯——利用每一个电源位</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥2</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>2%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-131269" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/06/10/78aae91b497f229564fcf7fd895eb5fe73_286x216.jpg" alt="简介:顾客就是我们的合伙人，我们销售的不只是电脑，还有全新的创业模式，做到每次销售都为顾客创造零成本创业机会。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-131269" class="btnLink ItemTextLink">超薄就是任性—小酷鸟电脑一体机</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥10</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>5%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-140812" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/22/16/a37330c3eac53b211300d2dbf9328c5036_286x216.jpg" alt="简介:利用多项专利技术，针对驾驶员开车过程中低头看仪表及导航的行为而倾情研发的，同时兼具实用性和超强科技感的智能车载抬头显示仪——极光HUD。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-140812" class="btnLink ItemTextLink">开车不低头  智能车载抬头显示器——极光HUD</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥788</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>25%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-130453" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/19/14/555ad4727631c_286x216.jpg" alt="简介:一梳就顺,一把梳子的传奇！彻底解决头发静电毛躁，干枯打结，改善头皮层。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-130453" class="btnLink ItemTextLink">一把梳子的传奇，一梳就顺！</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥29</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>113%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-129070" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/11/14/55504b27d799e_286x216.jpg" alt="简介:趣味生活，烤欲随心。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-129070" class="btnLink ItemTextLink">银鹰分子炉——美食随心做，烧烤随意玩！</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥1,388</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>17%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-142222" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/28/10/9218faaa6282bdbc591ba36fb0bd81c792_286x216.jpg" alt="简介:KSF检测仪，3-5秒检测出奶粉、化妆品、食物中超标的三聚氰胺、重金属、黄曲霉素、农残等有害物质，让我们保护生命，远离癌症！"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-142222" class="btnLink ItemTextLink">KSF检测仪，3-5秒检测出奶粉、化妆品、食物中超标的三聚氰…</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥308</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>4%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-134998" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/13/21/bc888e6f364c2c6e4c47672ca48ceb9114_286x216.jpg" alt="简介:小7稳拍器是一款专属手机的超轻量化稳定器，让手机拍摄视频更加稳定！为解决视频摇晃的问题而生！"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-134998" class="btnLink ItemTextLink">小7手机专属稳拍器</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥99</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>3%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-144331" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/28/10/3886aace24ce4af9b32ab2f0151da29517_286x216.jpg" alt="简介:无线智能门锁、无线智能高清摄像头和无线智能门窗磁三款智能家居装备让您的家随时随地尽在掌握。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-144331" class="btnLink ItemTextLink">有了智能门锁再也不怕忘带钥匙了，智能家居让您的家尽在掌握</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥168</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>16%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-90415" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/20/23/e27ee2be036f18915f66a1cc46eed9db88_286x216.jpg" alt="简介:集约不同功能科技于一笔，模块化无限拓展组合。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-90415" class="btnLink ItemTextLink">X Pen - 无限功能拓展笔 - 颠覆笔的世界</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥89</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>2%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-122953" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201504/17/21/139c9a7c4814738eb8167a4e1507408b20_286x216.jpg" alt="简介:专注极致 执着耳机 为HIFI而生"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-122953" class="btnLink ItemTextLink">突破传统 涡轮降噪耳机 单 双边</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥79</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>3%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-138046" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/19/00/a85898be34972db6d1f465d9429aa16542_286x216.jpg" alt="简介:通过我们一年的努力，产品即将上市。为了回报支持者，你们将成为第一批分享者，它附有时尚、高端、大方，智慧于一体的高频振动按摩器，让在工作中的疲劳一振而尽"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-138046" class="btnLink ItemTextLink">SUPAI时尚大方智慧一体高频腿部按摩器</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥199</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>4%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-138505" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/20/09/61ed44e2bb089d8f1902f5b79be3ad6831_286x216.jpg" alt="简介:意外翻杯不再发生！神奇不倒杯采用创新的魔术吸盘技术，让杯子稳稳的吸着桌面或某一平面上，而拿取时只需垂直轻松一提便可，边推而不倒的神奇功能！"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-138505" class="btnLink ItemTextLink">全球首发超能不倒杯——安全节能</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥88</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>3%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-143185" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/26/10/89abfb43c80098422833c74c3986e49e91_286x216.jpg" alt="简介:让更多的人加速享受到智能骑行的乐趣。你的支持不仅能获得优质的产品，更能参与巴尔扎克智能系列产品的研发和使用，与巴尔扎克一起成长，让智能自行车发展壮大！"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-143185" class="btnLink ItemTextLink">巴尔扎克智能折叠山地自行车  尖端科技触手可及</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥1,200</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>1%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-138307" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/19/16/b5fb5ba5f764b9003af9ad6a050561aa78_286x216.jpg" alt="简介:有一种灯，叫造型百变，可拆可折可移动！
+
+来自bbeigo 啄木鸟台灯---带给你不一样原生态灯世界！​"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-138307" class="btnLink ItemTextLink">原生态 木的世界---啄木鸟香樟木台灯</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥99</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>3%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-127177" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201504/26/13/b943a26a04748f6622e577610dd4569194_286x216.jpg" alt="简介:这是一款新设计的 马桶防溅精灵，自带香味。您在也不用担心上厕所PP遭水溅了。同时它自带的香味可放松人们紧张的心情！"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-127177" class="btnLink ItemTextLink">马桶防溅精灵 保卫PP安全</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥2</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>124%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-136243" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/20/17/1420834d73afc87dd617531303f6b60624_286x216.jpg" alt="简介:购买水处理机（净水器）时你会考虑水处理方式、品牌、质量，但你是否想过水处理机能否正常运行与水质是否安全可靠是密切相关的。这款就是基于这个困惑而诞生的。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-136243" class="btnLink ItemTextLink">具有自我诊断功能的智能反渗透水处理机 EB-185T</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥790</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>1%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-144940" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/29/17/8c462c00cd81a29824b47f3037de438996_286x216.jpg" alt="简介:雾霾、甲醛等有害气体给我们带来严重的伤害，AirProce云智能空气净化器，高效去雾霾、甲醛等有害气体，手机端远程操控，时刻呵护您与家人的健康！"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-144940" class="btnLink ItemTextLink">AirProce云智能空气净化器</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥10</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>0%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-114976" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201504/04/11/52884041d1591f1cf24f5ac0ead86c6635_286x216.jpg" alt="简介:音乐吸顶灯蓝牙吸顶灯七彩吸顶灯手机智能音乐灯LED吸顶灯   全球首发"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-114976" class="btnLink ItemTextLink">手机控音乐七彩蓝牙吸顶灯</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥500</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>11%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-138817" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/20/18/bf856d6a8e8ce4312df3ae969ab0e64957_286x216.jpg" alt="简介:在音乐中开始一段奇妙的阅读之旅！"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-138817" class="btnLink ItemTextLink">音随境迁—创意门台灯音箱</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥229</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>2%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-133810" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/18/13/63278aec37b4b3c66b3b8b39c19f4af770_286x216.jpg" alt="简介:几米JC800车载电脑，完美实现行车记录仪、GPS导航、手机追踪、蓝牙免提、车载电话、安卓智能于一体，防碰瓷、防罚单，给您一个安全轻松的驾驶感受。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-133810" class="btnLink ItemTextLink">几米 多功能车载电脑</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥900</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>1%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-144616" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/29/00/c16c721ada8984eb1ea38029e7e3bd7786_286x216.jpg" alt="简介:跳蛋号称调情之王，玩法多多、轻便可爱。首款手机遥控能跨省调情的跳蛋，更是王中之王。匿名社交，头像账号密码手机号地理位置统统不要泄露,刺激火爆陌生交友。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-144616" class="btnLink ItemTextLink">智能情趣玩具iPhone和Android自由操控——匿名社交…</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥98</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>0%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-112825" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201503/31/10/92befe8d64344065da93e84ca618148852_286x216.jpg" alt="简介:图美五口USB充电器解决插座不够用，充电桌面凌乱问题。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-112825" class="btnLink ItemTextLink">图美五口USB充电器，一家人只用这个就够了！</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥129</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>4%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-137686" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/25/17/5562ef7a6e31e_286x216.jpg" alt="简介:Monster魔声GO-DJ是一款多媒体DJ数码手持打碟播放器，适合DJ爱好者、音乐制作、单位家庭聚会使用。拥有它，任何人都能成为DJ高手，玩转音乐！"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-137686" class="btnLink ItemTextLink">美国魔声便携式DJ设备</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥3,699</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>1%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-134296" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/21/10/9cb04a799692418570a0abcede07f60521_286x216.jpg" alt="简介:信息安全问题日益严峻，  防拷贝U盘专为自主专利、行业秘密数据有防拷贝需求的知识产权安全盾，让你的成果不被外界恶意泄露、泛滥传播，保护个人和公司利益。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-134296" class="btnLink ItemTextLink">安全U盘带防拷贝功能</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥68</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>1%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-124396" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201504/20/23/015bbb2f3a656e245b958adb7cb7500c25_286x216.jpg" alt="简介:usmart蓝牙音响灯是一款全新的智能LED变色音响灯  灯光七彩变幻，内置高音质音响，具有音乐闹钟和延时关灯等功能"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-124396" class="btnLink ItemTextLink">usmart蓝牙智能灯泡</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥155</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>10%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-140866" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/22/17/bb875f7649258d29cbae1ba95188761183_286x216.jpg" alt="简介:科技改变未来，智能感动生活，品质是永远的追求，让我们携手创造感动你我的生活。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-140866" class="btnLink ItemTextLink">全球首款智能提醒声控幻彩饮水杯，让创意感动生活，点亮未来</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥128</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>1%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-127852" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201504/28/09/574fbb3320d8665771a02d503f5d34d160_286x216.jpg" alt="简介:邀请曾仕强先生为总顾问，做中国最好的国学机！精选4700多篇经典篇目，专业录音员录制讲解，有原文有译文有赏析，孩子记得住听得懂会应用，让孩子受益终生"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-127852" class="btnLink ItemTextLink">中华国学听书馆——作为中国人必听必懂的国学内容、孩子的早教神…</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥19</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>3%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-130903" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/07/10/554aca478f18e_286x216.jpg" alt="简介:我加助手是一款移动办公管理平台，为企业提供3A模式的移动办公解决方案。致力于企业管理移动化，提升管理效率。可视化界面，APP应用，让企业畅享移动办公。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-130903" class="btnLink ItemTextLink">颠覆性移动办公管理平台：我加助手</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥100</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>3%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-131932" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/07/15/2851fa10eb0cd59085c537c0d1c30e6938_286x216.jpg" alt="简介:全新WIFI智能LED音箱，只为创新，改善，智能。LED灯泡与音箱的完美结合，通过WIFI用手机APP控制，真正的实现智能化。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-131932" class="btnLink ItemTextLink">WIFI无线智能LED灯泡音箱  全新8大功能合一</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥10</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>3%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-141175" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/23/13/ddca008ac52100a4d0de86391d2a7b5888_286x216.jpg" alt="简介:蓝天碧水间，“净”享深呼吸。空气净化器，一款可移动的迷你水族馆，让您在室内不仅能吸最清新空气。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-141175" class="btnLink ItemTextLink">鱼水情 “森”呼吸 全国首款生态负氧离子空气净化器</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥198</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>2%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-130600" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/06/17/64485ee21a287ae05b53ae5e7bfee2e453_286x216.jpg" alt="简介:户外蓝牙音响是一款外观时尚、能防水、防尘、防振的音箱。它外观精致小巧，携带方便，设计简约，音质完美，是户外游行必备之品。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-130600" class="btnLink ItemTextLink">最新迷你运动版 自拍蓝牙音响</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥59</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>4%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-126754" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201504/30/10/cc0c493630a1d3d786012d40bad0ae8c13_286x216.jpg" alt="简介:苏仕的针对智能化产业发展、研发静馨系列空气净化器，创造以科技生活为核心的智能净化家居系统，苏仕的秉承着绿色环保节能的发展愿景为广大消费者创造智能新生活"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-126754" class="btnLink ItemTextLink">苏仕的静馨系列产品空气净化器</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥799</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>8%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-121957" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201504/17/11/7893dfae45ca6de8bc0d1567eb413f6a15_286x216.jpg" alt="简介:古人很早就已懂得利用香薰来美容、袪痛、消除疲劳、排解抑郁，如今，生活在现代快节奏及雾霾笼罩之下的我们，更需要有创意的保健又能美容还能美化生活的香薰机。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-121957" class="btnLink ItemTextLink">穹顶之下，守护健康！智能光动感空气香薰加湿净化机</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥8</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>4%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-132532" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/12/10/555162b0992eb_286x216.jpg" alt="简介:提供社区生活服务的超级电商平台，股权众筹同时上线！"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-132532" class="btnLink ItemTextLink">喊你来创业  社区生活APP平台合作招募</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥18</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>6%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-123058" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201504/21/17/55361d7194d5f_286x216.jpg" alt="简介:“脱单”专注于手机移动客户端，积极倡导和帮助大学生张扬自己的个性，校园恋爱，正能量的校园交友圈子，发现身边美好的人和事！建立属于校园的交友圈子。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-123058" class="btnLink ItemTextLink">“脱单”APP：认识新同学，邂逅心同学！</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥2</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>1%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-127192" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201504/26/16/a76723363ed84e566394b01e37101abd47_286x216.jpg" alt="简介:Spider 3D打印机采用盒子结构、双杆固定，结构更稳定。是一款分辨率更精准，高精度 、高速度、性价比超高的准工业级3D打印机。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-127192" class="btnLink ItemTextLink">高精度、高速度、超高性价比——Spider 3D打印机</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥19</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>1%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-120919" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201504/18/10/e90453db6a854485e9a54eb5d2d4cad212_286x216.jpg" alt="简介:芜湖瀚博3D打印机经过长期的市场信息搜集，研发出了capbot150S家用3D打印机，环保、易操作，打印效果好，金属框架稳固耐用。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-120919" class="btnLink ItemTextLink">家用3D打印机，智造幸福未来</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥358</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>1%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-122902" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/13/18/4a864d8851caabcd1c5614340701827965_286x216.jpg" alt="简介:保障饮水安全，“净”享健康生活！
+金鑫峰净水机-采用美国原装进口陶氏滤芯，去除自来水/地下水中的各种有毒有害物质，彻底去除细菌病毒，重金属等"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-122902" class="btnLink ItemTextLink">金鑫峰净水机（净化重金属专用经典版）</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥999</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>1%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-129040" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201504/30/09/7de67e5123ab511db6ce0aa175ca425065_286x216.jpg" alt="简介:“弹夹式”移动电源，摆脱常规功能移动电源的束缚，把里面的电池换做可拆卸式的五号电池，灵活的应用了五号电池较强的通用性，真正的实现了移动电源的“移动”。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-129040" class="btnLink ItemTextLink">“弹夹式”可拆电池的移动电源</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥109</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>1%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-138466" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/20/15/22f53b5f29090bf5d8a15893d55b18de29_286x216.jpg" alt="简介:完美体验的情趣性爱宝贝，配合创新的科技智能，让性爱拥有无限乐趣，让性福变得从未如此简单。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-138466" class="btnLink ItemTextLink">科技改变性福，智能情趣玩具——诺兰全球首发</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥198</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>1%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-114769" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/04/16/55472e306b9dc_286x216.jpg" alt="简介:穹顶之下，远离雾霾，从爱车开启！记住，它不仅仅是一台净化器，还包含了车载wi-fi／GPS定位等多种功能，智能生活，从这里开始！"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-114769" class="btnLink ItemTextLink">全国首款车载／家用WIFI净化器——闪耀你的生活</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥169</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>1%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-137383" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/21/17/afc1b08f529b085fa7b48968573de0f610_286x216.jpg" alt="简介:我们一直关注学龄前儿童的成长，将学校教育与家庭教育相结合，运用动画视频的格式，通俗易懂，寓教于乐，引导儿童在自身能够理解的基础上，认知大千世界。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-137383" class="btnLink ItemTextLink">少儿百科，认知的世界</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥2</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>1%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-143104" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/26/02/916b6a8a098939f5c2182688b8759d9289_286x216.jpg" alt="简介:专业复合过滤芯片，4D进风口，高效进化，全面换气，为您彻底解决空气问题，改变从呼吸开始。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-143104" class="btnLink ItemTextLink">欧乐美空气净化器</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥458</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>1%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-140707" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/29/14/556801e2b794a_286x216.jpg" alt="简介:用手机APP拍摄照片或者视频并且定位，PC端以地图路线形式显示。这种记忆方式以线路图片的形式出现，更加直观且具有纪念意义。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-140707" class="btnLink ItemTextLink">旅行地图</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥50</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>1%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-116632" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201504/21/17/5536126de784e_286x216.jpg" alt="简介:国内首家获得美国ELT认证、中国公安部认证的科研新品，因想获得初期市场数据，调整生产，特低价惠民放送。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-116632" class="btnLink ItemTextLink">众筹您的逃生瓶 火灾时为你保驾护航</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥160</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>1%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-113383" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201504/14/15/552cc8b36d912_286x216.jpg" alt="简介:宏惠专注养生壶8年研发的成功力作，宏惠养生壶是世界养生大会指定品牌养生壶，中国平安保险公司承保，产品经过CCC检测认证。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-113383" class="btnLink ItemTextLink">会说话的养生壶</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥238</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>1%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-133492" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/11/01/ac66d757d42624f6e2b2901d4e129fd659_286x216.jpg" alt="简介:微助力是浙江旭铭信息技术有限公司基于微信公众平台开放接口，设计研发的微信公众号营销系统，现致力于微信公众号的营销活动开发。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-133492" class="btnLink ItemTextLink">微助力微信公众号营销平台，成吨粉丝碗里来</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥300</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>1%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-130609" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/11/14/55504fba46e04_286x216.jpg" alt="简介:创新无按键感应操作，高清晰OLED显示屏，USB电脑调时，高精度时钟芯片，PLA材质外壳十分环保。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-130609" class="btnLink ItemTextLink">奇智小Z创意闹钟-感控操作-USB电脑调时-高精度时钟-OL…</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥50</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>5%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-144925" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201506/01/17/8b8563d0ba7025e7532b052223197bf458_286x216.jpg" alt="简介:微信现已发展成为可连接一切的生态系统，是社会化营销新阵地。如何让我们微信更快的推广和传播出去？扔赞网是一家微信营销推广服务平台，帮助企业通过微信自媒体"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-144925" class="btnLink ItemTextLink">扔赞网——致力于打最大的微信推广平台</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥10</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>0%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-134725" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/13/14/504e83e9efb796419dd01374c7327d3741_286x216.jpg" alt="简介:全球首款 智能感应发光的IC卡卡贴 无需电池 就能自动感应发光 不可思议的创新科技产品."/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-134725" class="btnLink ItemTextLink">全球首款智能发光IC卡卡贴</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥39</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>1%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-137224" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/18/13/021e4686d119c989853420df716a79ce80_286x216.jpg" alt="简介:“济南独家”是一款手机新闻客户端，目前内含“泉城、头条、添沫、九卦、服务、报料”等功能，用户黏度强。近期将增加“活动”功能。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-137224" class="btnLink ItemTextLink">“济南独家”APP</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥5</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>1%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-109492" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201503/24/02/91119c7ef5055bc0d154d18ded331b6f16_286x216.jpg" alt="简介:卡儿酷多功能汽车应急电源，为你的爱车保驾护航。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-109492" class="btnLink ItemTextLink">卡儿酷多功能汽车应急电源</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥399</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>1%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-121669" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201504/24/17/553a0f366df2d_286x216.jpg" alt="简介:3G智能机表，开启手腕上的3G时代"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-121669" class="btnLink ItemTextLink">偷拍神器-可以用得起的智能手表</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥699</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>1%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-132943" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/19/16/0ccae9a97720976fee12d300e3aa722446_286x216.jpg" alt="简介:蓝牙自拍杆开发新产品，艾斯拍品牌,公司简介广州市艾斯拍弘佰电子科技有限公司,本公司成立于2012-8-18日目前主要生产/批发是蓝牙自拍杆、自拍杆、"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-132943" class="btnLink ItemTextLink">爱生活 爱自拍 艾斯拍D11-1蓝牙自拍杆创新产品</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥100</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>1%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-22531" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201411/26/15/54757bfa77bbb_286x216.jpg" alt="简介:这是全球第一款真正意义上的可支付智能手环，它在中国完全实现了NFC近场支付功能，它早于applewatch问世中国，它彻底颠覆了全球智能穿戴的传统定义"/>
+        </a>
+        
+        <div class="PListTabIText successed" >
+            <a  target="_blank"  href="/deal-show/id-22531" class="btnLink ItemTextLink">刷刷手环——你走路，我买单，全球首款智能支付手环</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥10</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>852%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-71683" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201501/30/17/54cb4de4a2644_286x216.jpg" alt="简介:DreamNEXT幻想3D眼镜是一款专门针对智能手机而开发的虚拟现实设备，可调瞳距与视距，IML工艺面板，全景游戏视频无黑边。"/>
+        </a>
+        
+        <div class="PListTabIText successed" >
+            <a  target="_blank"  href="/deal-show/id-71683" class="btnLink ItemTextLink">最具性价比的虚拟现实眼镜——全景视频全景游戏随身IMAX影院</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥59</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>957%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-131212" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/23/09/d5c6c736450178b9b561b33e0679907313_286x216.jpg" alt="简介:BW3来源于卓创对产品的执着追求和信念，科技不应该被“简单粗暴”的线缆所束缚，应该是无缝的连接我们的生活。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-131212" class="btnLink ItemTextLink">HiFi蓝牙音频接收器 & 无线充电发射端（QI）& 移动电…</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥48</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>0%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-131830" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/09/11/7c8d3a646dc689721e1873d5cf30bdb157_286x216.jpg" alt="简介:Coka Light不仅节能、实用与美观，同时拥有优质的腔体扬声器和接近阳光色彩的灯源。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-131830" class="btnLink ItemTextLink">Coka Light 音乐吸顶灯 光与声的完美结合</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥225</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>0%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-18635" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201409/28/15/5427b4f5d16b8_286x216.jpg" alt="简介:takee全息手机，突破目前裸眼3D技术，实现“智能全息”，众筹网限量1000台定制版，等你来抢购！"/>
+        </a>
+        
+        <div class="PListTabIText successed" >
+            <a  target="_blank"  href="/deal-show/id-18635" class="btnLink ItemTextLink">takee1全息手机——定制专属你的全息世界！</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥3,600</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>377%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-128005" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201504/28/14/6fe621c279f65367be733b7850b6c56553_286x216.jpg" alt="简介:杭州追步科技有限公司为浙江易力车业所属内销公司，公司前身专注出口电动车产业。目前发展生产销售旗下易虎品牌系列滑板车，儿童滑板车。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-128005" class="btnLink ItemTextLink">易虎电动滑板车 伴我随行 绿色出行</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥2,580</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>0%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-141193" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/23/13/aa8eaaa3a89983f55a543440055b882669_286x216.jpg" alt="简介:鼎飞负氧离子空气净化器 是您家居、办公时的呼吸新鲜剂，好空气就在身边！"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-141193" class="btnLink ItemTextLink">畅享呼吸 首款DIY种植 属于你的智能净化的神器</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥199</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>0%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-136558" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/16/18/54f7f6c1b45251a199786b46bf849ef412_286x216.jpg" alt="简介:美丽一见倾心，荣获红点设计大奖。方便贴心，智能提醒，无线充电功能，人性化的app界面并拥有社交功能让饮水更有趣，是上班一族的最有逼格的饮水利器。"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-136558" class="btnLink ItemTextLink">智美贴心 waterever智能水杯</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥399</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>0%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-101431" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201504/27/22/933c1972264b0af6be5b3a60023bed2325_286x216.jpg" alt="简介:简单、易用、美，让设计更贴近生活"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-101431" class="btnLink ItemTextLink">智能无线自拍神器远程留住精彩</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥49</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>0%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-125869" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201505/08/12/9c8b088fcc983a8beab73831940df64618_286x216.jpg" alt="简介:简单、易用、美，让设计更贴近生活！"/>
+        </a>
+        
+        <div class="PListTabIText " >
+            <a  target="_blank"  href="/deal-show/id-125869" class="btnLink ItemTextLink">智能扫地机器人-超薄静音吸尘器扫地机</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥599</b>起</span>
+                <span class="ScSpan "><!--<i></i>-->已筹资<b>0%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-78073" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201502/07/10/5e6c55814dafd8c45c47c76f8a87562680_286x216.jpg" alt="简介:Mobilemate 智能伴侣卡 是全金属超薄卡片式时尚精品，可作便携式的移动电源使用、可实现SIM卡独立手机功能、支持蓝牙拨号与接听、具有电子围栏"/>
+        </a>
+        
+        <div class="PListTabIText successed" >
+            <a  target="_blank"  href="/deal-show/id-78073" class="btnLink ItemTextLink">智能伴侣卡Mobilemate</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥149</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>567%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-123562" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201504/24/15/5539f3d5ae08e_286x216.jpg" alt="简介:一直以来亚克力版本的Prusa i3 3d打印机很薄很脆还很贵，我们推出这款性价比极高的2020型材版3d打印机套件，让小伙伴们自己diy组装。"/>
+        </a>
+        
+        <div class="PListTabIText successed" >
+            <a  target="_blank"  href="/deal-show/id-123562" class="btnLink ItemTextLink">999元3D打印机套件—— Prusa i3 2020型材 </a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥999</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>454%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-9195" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201406/18/18/53a1688d3df6f_286x216.jpg" alt="简介:Lomography对胶卷摄影产品的再一次定义和革新，全新LOMO' Instant相机不需等待可立即分享胶片承载的创意惊喜。"/>
+        </a>
+        
+        <div class="PListTabIText successed" >
+            <a  target="_blank"  href="/deal-show/id-9195" class="btnLink ItemTextLink">全球首创LOMO拍立得相机</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥350</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>294%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-67096" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201501/13/19/3a2dbaebac06c042e3b22c742638896454_286x216.jpg" alt="简介:潮Link是杭州单向街新研发的一款iBeacon设备，主要解决商户与当地移动用户之间的营销和互动问题。"/>
+        </a>
+        
+        <div class="PListTabIText successed" >
+            <a  target="_blank"  href="/deal-show/id-67096" class="btnLink ItemTextLink">潮Link——智能iBeacon基站</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥58</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>657%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-21446" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201412/05/17/548180b048980_286x216.jpg" alt="简介:随着人们生活水平的提高，手机已经是家家户户必备的通讯工具，手机流量没用完被强制清零，是否属于单方霸王条款？每月您是不是都会有这样的困扰？"/>
+        </a>
+        
+        <div class="PListTabIText successed" >
+            <a  target="_blank"  href="/deal-show/id-21446" class="btnLink ItemTextLink">清新卡——共享你的手机流量</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥5</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>971%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-77419" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201501/30/10/2f9b99175ba132a948078f8ff527add290_286x216.jpg" alt="简介:全国连续出现的严重雾霾天使我们有了重新定义口罩的想法，公开透明的性能参数，简约时尚的外观设计，独具匠心的生产工艺，这是我们保证用户极致体验的基本要求。"/>
+        </a>
+        
+        <div class="PListTabIText successed" >
+            <a  target="_blank"  href="/deal-show/id-77419" class="btnLink ItemTextLink">motlun摩天轮防雾霾口罩</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥29</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>320%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-81055" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201502/05/16/29e367d78345b14a3bc0719d22e232ef89_286x216.jpg" alt="简介:它不仅仅是一盏阅读灯，更是一根随身携带的数据线，360度扭曲，耐摔，抗拉！是我们对它的要求，它做到了！方便携带，保护视力是它的特性。"/>
+        </a>
+        
+        <div class="PListTabIText successed" >
+            <a  target="_blank"  href="/deal-show/id-81055" class="btnLink ItemTextLink">360扭曲，耐摔，抗拉！首款手机供电的台灯/数据线</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥35</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>141%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-96262" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201503/17/16/5507e006decbb_286x216.jpg" alt="简介:第一款采用9叶风扇的光触媒静音高端灭蚊灯！"/>
+        </a>
+        
+        <div class="PListTabIText successed" >
+            <a  target="_blank"  href="/deal-show/id-96262" class="btnLink ItemTextLink">高端光触媒灭蚊灯</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥158</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>455%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-48547" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201501/16/15/6ca63f7a83ee5aa0440618e671a5ac1851_286x216.jpg" alt="简介:重装智能手机（平板电脑）的全功能数据线轮；有了eNB线轮，手机（平板电脑）变口袋里的PC"/>
+        </a>
+        
+        <div class="PListTabIText successed" >
+            <a  target="_blank"  href="/deal-show/id-48547" class="btnLink ItemTextLink">eNB 全功能USB绕线轮</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥19</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>1742%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-22065" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201411/26/15/54757c2f58889_286x216.jpg" alt="简介:iLove是一款由iPhone和Android自由操控的智能情趣玩具，全球四大顶级情趣用品品牌之一香港宝狮PolyLion全球首发。极致情趣 顶级格调"/>
+        </a>
+        
+        <div class="PListTabIText successed" >
+            <a  target="_blank"  href="/deal-show/id-22065" class="btnLink ItemTextLink">iLove智能情趣玩具iPhone和Android自由操控—…</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥239</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>161%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-17347" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201410/08/18/3cb8ff3140361565c59b168230e1871015_286x216.jpg" alt="简介:支持所有上传云端的数据做得到同步加密，解决云空间的数据安全，为个人隐私保驾护航。至此，艳照门泄露从此不再发生。"/>
+        </a>
+        
+        <div class="PListTabIText successed" >
+            <a  target="_blank"  href="/deal-show/id-17347" class="btnLink ItemTextLink">MyKey云存储安全锁——让你轻松享用安全云空间</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥49</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>101%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-68029" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201501/16/16/54b8cefb70392_286x216.jpg" alt="简介:我们众筹开发一款多功能小型数控自动化平台，他主要特点就是可以更换多种模块，目前已经有3D打印模块，CNC模块，激光雕刻模块，更多的模块正在开发中"/>
+        </a>
+        
+        <div class="PListTabIText successed" >
+            <a  target="_blank"  href="/deal-show/id-68029" class="btnLink ItemTextLink">积木多功能3D打印机——搭建你的无限可能</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥1,900</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>278%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-108685" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201504/02/14/551cdc7d799de_286x216.jpg" alt="简介:2秒即饮真鲜水！颠覆传统的饮水方式，来自2015新年的健康生活新概念！"/>
+        </a>
+        
+        <div class="PListTabIText successed" >
+            <a  target="_blank"  href="/deal-show/id-108685" class="btnLink ItemTextLink">2秒即饮真鲜水！颠覆传统饮水方式，来自2015新年的健康生活…</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥5</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>229%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-59146" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201412/30/14/689e542bdd4fe7c19f62cb3b2e416e8822_286x216.jpg" alt="简介:呼爽隐形鼻罩是一款极具创新性的鼻腔过滤器，可以完美代替口罩。
+它具有四大特征：真正有效；真正透气；真正隐形；真正便携。
+您的支持将改变生活！"/>
+        </a>
+        
+        <div class="PListTabIText successed" >
+            <a  target="_blank"  href="/deal-show/id-59146" class="btnLink ItemTextLink">呼爽隐形鼻罩-藏在您鼻子里的防霾精灵</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥18</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>129%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-98473" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201503/23/10/550f80d4880e1_286x216.jpg" alt="简介:这是一款专为手机和平板电脑设计的镭射键盘，它小巧便携，做工精致，科技含量高，是您办公旅行必备佳品。"/>
+        </a>
+        
+        <div class="PListTabIText successed" >
+            <a  target="_blank"  href="/deal-show/id-98473" class="btnLink ItemTextLink">熠孚虚拟移动激光键盘</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥199</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>197%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-90565" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201503/04/11/1507eb6f0931061cf7203cba5c5a320287_286x216.jpg" alt="简介:互联网的世界，因＂动＂而精彩，可穿戴智能云端摄像机，人体工程学专家黄金比例外观设计，舒适贴近您的生活!"/>
+        </a>
+        
+        <div class="PListTabIText successed" >
+            <a  target="_blank"  href="/deal-show/id-90565" class="btnLink ItemTextLink">锐力I拍可穿戴智能云端摄像机</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥199</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>237%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-109888" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201504/30/17/5541fa91a3245_286x216.jpg" alt="简介:每盏灯都能变成智能灯，手机控制、自动工作，告别开关灯的烦恼！"/>
+        </a>
+        
+        <div class="PListTabIText successed" >
+            <a  target="_blank"  href="/deal-show/id-109888" class="btnLink ItemTextLink">智能灯光伴侣——让每一盏灯都变智能</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥58</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>181%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="PListTabIBox">
+        <a target="_blank" href="/deal-show/id-113488" class="PListTabI_imgA btnLink">
+                        <img src="" wx-lz="http://zcr9.ncfstatic.com/attachment/201504/01/14/925ee54404a2fd95654f836a64b0352172_286x216.jpg" alt="简介:Yolanda携手众筹网，普及智能脂肪秤，普及智能健康生活。"/>
+        </a>
+        
+        <div class="PListTabIText successed" >
+            <a  target="_blank"  href="/deal-show/id-113488" class="btnLink ItemTextLink">Yolanda智能变频脂肪秤--震撼普及</a>
+            <div class="PListTabIcount clearfix">
+                                <span class="FtSpan"><b>￥79</b>起</span>
+                <span class="ScSpan full"><!--<i></i>-->已筹资<b>133%</b></span>
+                            </div>
+            
+        </div>
+
+    </div>            </div>
+            <!-- 股权众筹 end -->
+            <!-- 网站分页 begin -->
+            <div class="pager">
+            		 <a class='prev' href='http://www.zhongchou.com/browse/id-10000'>首页</a> <a class='prev' href='javascript:void(0);'>上一页</a>    &nbsp;<A class='selected'>1</a>&nbsp;<a class='common-sprite' href='http://www.zhongchou.com/browse/id-10000-p-2'>&nbsp;2&nbsp;</a>&nbsp;<a class='common-sprite' href='http://www.zhongchou.com/browse/id-10000-p-3'>&nbsp;3&nbsp;</a>&nbsp;<a class='common-sprite' href='http://www.zhongchou.com/browse/id-10000-p-4'>&nbsp;4&nbsp;</a>    <a class='next' href='http://www.zhongchou.com/browse/id-10000-p-2'>下一页</a> <a class='common-sprite' href='http://www.zhongchou.com/browse/id-10000-p-4' >尾页</a>              </div>
+            <!-- 网站分页 end -->
+        </div>
+        <!-- 右侧主题内容 begin -->
+        <div class="PListRight">
+        	
+<!-- 右侧部分 begin -->
+
+            <div class="RNavWrap">
+                <div class="RNavPList">
+                  <div class="RNavPlistIBox"><img width="175px" src="/attachment/201505/19/15/1432018874.png"/></div><div class="RNavPlistIBox"><img width="175px" src="/attachment/201505/22/11/1432263735.jpg"/><a href="http://www.zhongchou.com/deal-show/id-127327?refl=wenzilian" class="RNavPlistI_link btnLink">最新 | 无饲料无肥料养鱼</a><a href="http://www.zhongchou.com/deal-show/id-137083?refl=wenzilian" class="RNavPlistI_link btnLink">推荐 | 建你在西藏的基地</a><a href="http://www.zhongchou.com/deal-show/id-133834?refl=wenzilian" class="RNavPlistI_link btnLink">热门 | 每天10点送手机</a><a href="http://www.zhongchou.com/deal-show/id-132508?refl=wenzilian" class="RNavPlistI_link btnLink"> 旅美青年导演的微电影</a><a href="http://www.zhongchou.com/deal-show/id-135082?refl=wenzilian" class="RNavPlistI_link btnLink">活动 | 90后医学男生的演唱会</a></div><div class="RNavCJWTTile">热门活动</div><div class="RNavPlistIBox"><a href="http://www.zhongchou.com/special-hongbao"><img width="175px" src="/attachment/201505/21/16/1432196761.png"/></a></div>                </div>
+
+        <!-- 最近浏览的项目 begin -->
+                <div class="RNavZJLL_mark" id="ZJLL_mark"></div>
+        <div class="RNavZJLL" id="RNavZJLL">
+          <div class="RNavCJWTTile">今日最热</div>
+            <ul class="RNavZJLLUl">
+                            <li class="RNavZJLL_li">
+                  <dl class="RNavZJLL_dl clearfix">
+                      <dt class="RNavZJLL_dt">
+                        <a href="/deal-show/id-134860">
+                            <img width="62px" height="47px" src="http://zcr9.ncfstatic.com/attachment/201505/13/13/7b6f265017f7b113d62633ad9d744f1884_286x216.jpg" />
+                        </a>
+                        </dt>
+                        <dd class="RNavZJLL_dd">
+                          <a href="/deal-show/id-134860" class="siteLink" title="《放缓脚步寻找有温度的工厂》——台…">《放缓脚步寻找有温度的工厂》——台…</a>
+                            <div><b>￥45</b>起</div>
+                        </dd>
+                    </dl>
+                </li>
+                            <li class="RNavZJLL_li">
+                  <dl class="RNavZJLL_dl clearfix">
+                      <dt class="RNavZJLL_dt">
+                        <a href="/deal-show/id-117292">
+                            <img width="62px" height="47px" src="http://zcr9.ncfstatic.com/attachment/201505/08/09/554c153fbb554_286x216.jpg" />
+                        </a>
+                        </dt>
+                        <dd class="RNavZJLL_dd">
+                          <a href="/deal-show/id-117292" class="siteLink" title="出一本书，建一座教室，圆凉山贫困山…">出一本书，建一座教室，圆凉山贫困山…</a>
+                            <div><b>￥20</b>起</div>
+                        </dd>
+                    </dl>
+                </li>
+                            <li class="RNavZJLL_li">
+                  <dl class="RNavZJLL_dl clearfix">
+                      <dt class="RNavZJLL_dt">
+                        <a href="/deal-show/id-114595">
+                            <img width="62px" height="47px" src="http://zcr9.ncfstatic.com/attachment/201504/24/17/adf133f61da15e1c295f9ff988ef4df478_286x216.jpg" />
+                        </a>
+                        </dt>
+                        <dd class="RNavZJLL_dd">
+                          <a href="/deal-show/id-114595" class="siteLink" title="从“一平米”开始——助力贵州孩子们…">从“一平米”开始——助力贵州孩子们…</a>
+                            <div><b>￥5</b>起</div>
+                        </dd>
+                    </dl>
+                </li>
+                            <li class="RNavZJLL_li">
+                  <dl class="RNavZJLL_dl clearfix">
+                      <dt class="RNavZJLL_dt">
+                        <a href="/deal-show/id-132946">
+                            <img width="62px" height="47px" src="http://zcr9.ncfstatic.com/attachment/201505/25/14/5562c2582f607_286x216.jpg" />
+                        </a>
+                        </dt>
+                        <dd class="RNavZJLL_dd">
+                          <a href="/deal-show/id-132946" class="siteLink" title="情系贫困山区儿童 爱心传递物资">情系贫困山区儿童 爱心传递物资</a>
+                            <div><b>￥5</b>起</div>
+                        </dd>
+                    </dl>
+                </li>
+                            <li class="RNavZJLL_li">
+                  <dl class="RNavZJLL_dl clearfix">
+                      <dt class="RNavZJLL_dt">
+                        <a href="/deal-show/id-122950">
+                            <img width="62px" height="47px" src="http://zcr9.ncfstatic.com/attachment/201504/17/19/125af008460dab65877d61dac86be9df81_286x216.jpg" />
+                        </a>
+                        </dt>
+                        <dd class="RNavZJLL_dd">
+                          <a href="/deal-show/id-122950" class="siteLink" title="《高铁风云录》第一本全面介绍高铁发…">《高铁风云录》第一本全面介绍高铁发…</a>
+                            <div><b>￥5</b>起</div>
+                        </dd>
+                    </dl>
+                </li>
+                          </ul>
+        </div>
+                <!-- 最近浏览的项目 end -->
+
+      </div>        </div>
+        <!-- 右侧主题内容 end -->
+    </div>
+</div>
+<!-- 项目列表 end -->
+
+
+
+<div class="footer">
+	<div class="footer-nav">
+		<a href="/help-index/id-1" rel="nofollow" target="_blank">关于我们 <i>｜</i> </a>
+		<a href="/help-contact" rel="nofollow" target="_blank">联系我们 <i>｜</i> </a>
+		<!-- <a href="/help-team" rel="nofollow">团队介绍 <i>｜</i> </a> -->
+		<a href="/help-term" rel="nofollow" target="_blank">服务协议 <i>｜</i> </a>
+		<a href="/help-specification" rel="nofollow" target="_blank">项目发起规范 <i>｜</i> </a>
+		<a href="/special-xinshou" target="_blank">新手帮助 <i>｜</i> </a>
+		<a href="/help-center" target="_blank">帮助中心 <i>｜</i> </a>
+		<a  target="_blank" href="/open" alt="合作专区" title="合作专区">合作专区</a>
+	</div>
+	<div class="footer-icon">
+		<span>关注我们：</span>
+		<a class="s-05" target="_blank" href="http://e.weibo.com/zhongchouwang2013" rel="nofollow"></a>
+		<a class="s-06" target="_blank" href="http://user.qzone.qq.com/2357291729" rel="nofollow"></a>
+		<a class="s-07" target="_blank" href="http://tieba.baidu.com/f?ie=utf-8&kw=%E4%BC%97%E7%AD%B9%E7%BD%91" rel="nofollow"></a>
+		<a class="s-08" target="_blank" href="http://www.douban.com/people/zhongchou_cn/" rel="nofollow"></a>
+	</div>
+	<div class="footer-copy">
+		<div class="wrap">
+			<div class="m-Links">
+			         
+			</div>
+			<p>&copy;2014 北京网信众筹网络科技有限公司 zhongchou.com 版权所有 京ICP证150145号 | 出版物经营许可证编号新出发（京）批字第直140141号 | 营业性演出许可证 编号：京市演2102 | 食品流通许可证 编号：SP1101051410311599</p>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript" src="http://zcs3.ncfstatic.com/zhongchou/pub/v3/fe3974b84fb6b50da0f329242078614c.js?V=1433243517" ></script>
+                
+<!-- <div id="gotop" class="go-top"></div> -->
+</body>
+</html> 
