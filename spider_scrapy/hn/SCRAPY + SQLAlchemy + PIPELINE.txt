@@ -1,0 +1,6 @@
+
+SCRAPY + SQLAlchemy + PIPELINE
+
+http://www.oschina.net/translate/build-website-crawler-based-upon-scrapy
+
+
